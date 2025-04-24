@@ -32,6 +32,8 @@ on early-init
     insmod /vendor/lib/modules/gpr_dlkm.ko
     insmod /vendor/lib/modules/spf_core_dlkm.ko
     insmod /vendor/lib/modules/adsp_loader_dlkm.ko
+    insmod /vendor/lib/modules/xiaomi_touch.ko
+    insmod /vendor/lib/modules/synaptics_tcm2.ko
 
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
